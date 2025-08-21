@@ -41,3 +41,8 @@ Users can create, update, delete, and view notes while leveraging AI to **summar
 ```bash
 git clone https://github.com/wise-wolf-2004/AI-Notepad.git
 cd AI-Notepad
+
+### 2. Install dependencies
+Backend
+cd ai-notes-backend
+npm install
