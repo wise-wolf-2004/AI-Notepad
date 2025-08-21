@@ -49,7 +49,7 @@ cd ai-notes-backend
 npm install
 ```
 Frontend
-```bash
+```
 cd ai-notes-frontend
 npm install
 ```
@@ -57,8 +57,21 @@ npm install
 
 Create a .env file inside ai-notes-backend:
 
-```.env
+```
 MONGO_URI=your_mongodb_connection
 HUGGINGFACE_API_KEY=your_huggingface_api_key
 PORT=5000
 ```
+### 4. Run the app
+Start backend server
+```
+cd ai-notes-backend
+npm start
+```
+Start frontend
+```
+cd ai-notes-frontend
+npm start
+```
+Now open http://localhost:3000
+in your browser 🚀
