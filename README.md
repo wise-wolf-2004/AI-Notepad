@@ -41,8 +41,24 @@ Users can create, update, delete, and view notes while leveraging AI to **summar
 ```bash
 git clone https://github.com/wise-wolf-2004/AI-Notepad.git
 cd AI-Notepad
-
+```
 ### 2. Install dependencies
 Backend
+```bash
 cd ai-notes-backend
 npm install
+```
+Frontend
+```bash
+cd ai-notes-frontend
+npm install
+```
+### 3. Set up environment variables
+
+Create a .env file inside ai-notes-backend:
+
+```.env
+MONGO_URI=your_mongodb_connection
+HUGGINGFACE_API_KEY=your_huggingface_api_key
+PORT=5000
+```
