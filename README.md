@@ -55,7 +55,7 @@ npm install
 ```
 ### 3. Set up environment variables
 
-Create a .env file inside ai-notes-backend:
+Update your a .env file inside ai-notes-backend with:
 
 ```
 MONGO_URI=your_mongodb_connection
