@@ -66,7 +66,7 @@ PORT=5000
 Start backend server
 ```
 cd ai-notes-backend
-npm start
+npm run dev
 ```
 Start frontend
 ```
